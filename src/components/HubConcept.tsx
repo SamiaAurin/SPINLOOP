@@ -25,7 +25,7 @@ export function HubConcept() {
         <Reveal delay={80}>
           <div className="relative mt-12 overflow-hidden rounded-[2rem] border border-line bg-white p-4 sm:p-8">
             <img
-              src="/images/hub-floorplan.png"
+              src={`${import.meta.env.BASE_URL}images/hub-floorplan.png`}
               alt="Stylized marketing visualization of the SPINLOOP hub layout"
               className="w-full rounded-[1.4rem] object-cover"
             />

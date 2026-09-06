@@ -124,7 +124,7 @@ export const journey = [
 export const services = [
   {
     title: "Self-Service Laundry",
-    image: "/images/equipment-washers.png",
+    image: `${import.meta.env.BASE_URL}images/equipment-washers.png`,
     points: [
       "Pay-per-load wash and dry cycles",
       "7kg–18kg capacity range",
@@ -134,7 +134,7 @@ export const services = [
   },
   {
     title: "Memberships & Assisted Services",
-    image: "/images/folded-laundry.png",
+    image: `${import.meta.env.BASE_URL}images/folded-laundry.png`,
     points: [
       "Monthly bundles",
       "Family plans",
@@ -143,7 +143,7 @@ export const services = [
   },
   {
     title: "B2B & Add-On Revenue",
-    image: "/images/lounge.png",
+    image: `${import.meta.env.BASE_URL}images/lounge.png`,
     points: [
       "Commercial linen contracts",
       "Hotel/hostel B2B deals",

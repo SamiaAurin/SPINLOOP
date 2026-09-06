@@ -35,7 +35,7 @@ export function Navbar() {
           className="flex items-center rounded-xl border border-white/20 bg-white/85 px-2 py-1 shadow-lg backdrop-blur-md"
         >
           <img
-            src="/images/spinloop-logo.png"
+            src={`${import.meta.env.BASE_URL}images/spinloop-logo.png`}
             alt="SPINLOOP BD"
             className="h-9 w-auto object-contain"
           />

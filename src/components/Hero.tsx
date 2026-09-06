@@ -7,7 +7,7 @@ export function Hero() {
       className="relative min-h-[100svh] overflow-hidden bg-navy text-white"
     >
       <img
-        src="/images/hero-laundry-hub.png"
+        src={`${import.meta.env.BASE_URL}images/hero-laundry-hub.png`}
         alt="Modern SPINLOOP laundry hub with commercial front-load washers and dryers"
         className="absolute inset-0 h-full w-full object-cover"
       />

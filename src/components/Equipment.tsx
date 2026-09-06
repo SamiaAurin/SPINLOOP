@@ -10,7 +10,7 @@ export function Equipment() {
         <Reveal>
           <div className="overflow-hidden rounded-[2rem]">
             <img
-              src="/images/payment-kiosk.png"
+              src={`${import.meta.env.BASE_URL}images/payment-kiosk.png`}
               alt="Smart payment kiosk in a modern laundry hub"
               className="h-full w-full object-cover transition duration-700 hover:scale-[1.03]"
             />

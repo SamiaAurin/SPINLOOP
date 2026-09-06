@@ -8,7 +8,7 @@ export function Contact() {
       className="relative overflow-hidden bg-navy px-5 py-28 text-white lg:px-8 lg:py-36"
     >
       <img
-        src="/images/lounge.png"
+        src={`${import.meta.env.BASE_URL}images/lounge.png`}
         alt=""
         className="absolute inset-0 h-full w-full object-cover opacity-30"
       />

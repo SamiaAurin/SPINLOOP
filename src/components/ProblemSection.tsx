@@ -8,7 +8,7 @@ export function ProblemSection() {
         <Reveal>
           <div className="overflow-hidden rounded-[2rem]">
             <img
-              src="/images/problem-laundry.png"
+              src={`${import.meta.env.BASE_URL}images/problem-laundry.png`}
               alt="Urban household laundry still handled as a time-consuming chore"
               className="h-full w-full object-cover transition duration-700 hover:scale-[1.03]"
             />
