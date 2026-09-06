@@ -1,6 +1,5 @@
 import { useEffect, useState } from "react";
-import { brand, nav } from "../data/content";
-import { LogoMark } from "./ui/Icons";
+import { nav } from "../data/content";
 
 export function Navbar() {
   const [scrolled, setScrolled] = useState(false);
