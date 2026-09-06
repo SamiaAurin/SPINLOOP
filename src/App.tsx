@@ -23,7 +23,7 @@ export default function App() {
   return (
     <>
       <Navbar />
-      <main className="pb-16 sm:pb-0">
+      <main>
         <Hero />
         <Stats />
         <ProblemSection />
