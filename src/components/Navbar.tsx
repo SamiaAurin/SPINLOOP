@@ -22,22 +22,24 @@ export function Navbar() {
 
   return (
     <header
-      className={`fixed inset-x-0 top-0 z-50 transition-all duration-300 ${
-        scrolled || open
-          ? "border-b border-white/10 bg-navy/90 backdrop-blur-xl"
-          : "bg-transparent"
-      }`}
+      className={`fixed inset-x-0 top-0 z-50 transition-all duration-300 ${scrolled || open
+        ? "border-b border-white/10 bg-navy/90 backdrop-blur-xl"
+        : "bg-transparent"
+        }`}
     >
       <div
-        className={`mx-auto flex max-w-7xl items-center justify-between px-5 transition-all duration-300 lg:px-8 ${
-          scrolled ? "h-[68px]" : "h-[84px]"
-        }`}
+        className={`mx-auto flex max-w-7xl items-center justify-between px-5 transition-all duration-300 lg:px-8 ${scrolled ? "h-[68px]" : "h-[84px]"
+          }`}
       >
-        <a href="#home" className="flex items-center gap-2.5 text-white">
-          <LogoMark className={scrolled ? "h-8 w-8" : "h-9 w-9"} />
-          <span className="text-[15px] font-extrabold tracking-tight">
-            {brand.name}
-          </span>
+        <a
+          href="#home"
+          className="flex items-center rounded-xl border border-white/20 bg-white/85 px-2 py-1 shadow-lg backdrop-blur-md"
+        >
+          <img
+            src="/images/spinloop-logo.png"
+            alt="SPINLOOP BD"
+            className="h-9 w-auto object-contain"
+          />
         </a>
 
         <nav className="hidden items-center gap-7 xl:flex" aria-label="Primary">
